@@ -1,0 +1,22 @@
+# Binarios
+cmp-server
+backend/cmp-server
+*.exe
+*.dll
+
+# Bases de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Dependencias de Node (pesan mucho)
+node_modules/
+frontend/node_modules/
+
+# Builds de producción
+dist/
+frontend/dist/
+
+# Logs y sistema
+*.log
+.DS_Store
